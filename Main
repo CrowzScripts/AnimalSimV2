@@ -42,7 +42,6 @@ Main.Size = UDim2.new(0, 417, 0, 202)
 Main.Active = true 
 Main.Draggable = true 
 
-
 UICorner.CornerRadius = UDim.new(0, 10)
 UICorner.Parent = Main
 
@@ -219,3 +218,94 @@ TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = ""
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextSize = 14.000
+
+-- Scripts:
+
+local function HSYYLFY_fake_script() -- _5KFarm.LocalScript 
+	local script = Instance.new('LocalScript', _5KFarm)
+
+	
+end
+coroutine.wrap(HSYYLFY_fake_script)()
+local function PUYPQ_fake_script() -- Under5K.LocalScript 
+	local script = Instance.new('LocalScript', Under5K)
+
+	
+end
+coroutine.wrap(PUYPQ_fake_script)()
+local function NTJMPMC_fake_script() -- BossFarm.LocalScript 
+	local script = Instance.new('LocalScript', BossFarm)
+
+	
+end
+coroutine.wrap(NTJMPMC_fake_script)()
+local function PMOX_fake_script() -- Aura.LocalScript 
+	local script = Instance.new('LocalScript', Aura)
+
+	
+end
+coroutine.wrap(PMOX_fake_script)()
+local function LBUQZ_fake_script() -- Admin.LocalScript 
+	local script = Instance.new('LocalScript', Admin)
+
+	
+end
+coroutine.wrap(LBUQZ_fake_script)()
+local function OCOTR_fake_script() -- Hop.LocalScript 
+	local script = Instance.new('LocalScript', Hop)
+
+	
+end
+coroutine.wrap(OCOTR_fake_script)()
+local function XKCD_fake_script() -- Discord.LocalScript 
+	local script = Instance.new('LocalScript', Discord)
+
+	
+end
+coroutine.wrap(XKCD_fake_script)()
+local function NNQQ_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	-- Reference to the button and the frame
+	local button = script.Parent
+	local frame = button.Parent
+	
+	-- Function to handle button click
+	local function onButtonClick()
+		-- Check if the parent of the button is a frame
+		if frame:IsA("Frame") then
+			-- Make the frame invisible
+			frame.Visible = false
+		else
+			warn("Button is not inside a frame!")
+		end
+	end
+	
+	-- Connect the button click event to the function
+	button.MouseButton1Click:Connect(onButtonClick)
+	
+end
+coroutine.wrap(NNQQ_fake_script)()
+local function KBBSJLU_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	-- Reference to the frame
+	local frame = script.Parent
+	
+	-- Function to handle incoming chat messages
+	local function onChat(message, speaker)
+		if message == "/open" then
+			-- Make the frame visible when the "/open" command is received
+			frame.Visible = true
+		end
+	end
+	
+	-- Connect the chat event
+	game.Players.PlayerAdded:Connect(function(player)
+		player.Chatted:Connect(function(message)
+			onChat(message, player)
+		end)
+	end)
+	
+end
+coroutine.wrap(KBBSJLU_fake_script)()
