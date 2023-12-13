@@ -37,7 +37,7 @@ Main.Parent = AnimalSim
 Main.BackgroundColor3 = Color3.fromRGB(6, 21, 88)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.256042629, 0, 0.255177647, 0)
+Main.Position = UDim2.new(0.252287954, 0, 0.255177647, 0)
 Main.Size = UDim2.new(0, 417, 0, 202)
 Main.Active = true 
 Main.Draggable = true 
@@ -208,11 +208,11 @@ Exit.TextWrapped = true
 UICorner_9.CornerRadius = UDim.new(0, 14)
 UICorner_9.Parent = Exit
 
-TextLabel_2.Parent = AnimalSim
+TextLabel_2.Parent = Main
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(1, 39, 255)
 TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.256042629, 0, 0.338955492, 0)
+TextLabel_2.Position = UDim2.new(-0.000552097394, 0, 0.200341627, 0)
 TextLabel_2.Size = UDim2.new(0, 417, 0, 2)
 TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = ""
@@ -221,49 +221,49 @@ TextLabel_2.TextSize = 14.000
 
 -- Scripts:
 
-local function HSYYLFY_fake_script() -- _5KFarm.LocalScript 
+local function IGFS_fake_script() -- _5KFarm.LocalScript 
 	local script = Instance.new('LocalScript', _5KFarm)
 
 	
 end
-coroutine.wrap(HSYYLFY_fake_script)()
-local function PUYPQ_fake_script() -- Under5K.LocalScript 
+coroutine.wrap(IGFS_fake_script)()
+local function TEIVXZ_fake_script() -- Under5K.LocalScript 
 	local script = Instance.new('LocalScript', Under5K)
 
 	
 end
-coroutine.wrap(PUYPQ_fake_script)()
-local function NTJMPMC_fake_script() -- BossFarm.LocalScript 
+coroutine.wrap(TEIVXZ_fake_script)()
+local function FKTAB_fake_script() -- BossFarm.LocalScript 
 	local script = Instance.new('LocalScript', BossFarm)
 
 	
 end
-coroutine.wrap(NTJMPMC_fake_script)()
-local function PMOX_fake_script() -- Aura.LocalScript 
+coroutine.wrap(FKTAB_fake_script)()
+local function SMNBVPP_fake_script() -- Aura.LocalScript 
 	local script = Instance.new('LocalScript', Aura)
 
 	
 end
-coroutine.wrap(PMOX_fake_script)()
-local function LBUQZ_fake_script() -- Admin.LocalScript 
+coroutine.wrap(SMNBVPP_fake_script)()
+local function QRIZGD_fake_script() -- Admin.LocalScript 
 	local script = Instance.new('LocalScript', Admin)
 
 	
 end
-coroutine.wrap(LBUQZ_fake_script)()
-local function OCOTR_fake_script() -- Hop.LocalScript 
+coroutine.wrap(QRIZGD_fake_script)()
+local function ZDPA_fake_script() -- Hop.LocalScript 
 	local script = Instance.new('LocalScript', Hop)
 
 	
 end
-coroutine.wrap(OCOTR_fake_script)()
-local function XKCD_fake_script() -- Discord.LocalScript 
+coroutine.wrap(ZDPA_fake_script)()
+local function AAKH_fake_script() -- Discord.LocalScript 
 	local script = Instance.new('LocalScript', Discord)
 
 	
 end
-coroutine.wrap(XKCD_fake_script)()
-local function NNQQ_fake_script() -- Exit.LocalScript 
+coroutine.wrap(AAKH_fake_script)()
+local function YPUWS_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	-- Reference to the button and the frame
@@ -285,8 +285,8 @@ local function NNQQ_fake_script() -- Exit.LocalScript
 	button.MouseButton1Click:Connect(onButtonClick)
 	
 end
-coroutine.wrap(NNQQ_fake_script)()
-local function KBBSJLU_fake_script() -- Main.LocalScript 
+coroutine.wrap(YPUWS_fake_script)()
+local function BVHF_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	-- Reference to the frame
@@ -308,4 +308,4 @@ local function KBBSJLU_fake_script() -- Main.LocalScript
 	end)
 	
 end
-coroutine.wrap(KBBSJLU_fake_script)()
+coroutine.wrap(BVHF_fake_script)()
